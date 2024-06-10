@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const uploadData = require('./scripts/uploadData');
 const app = express();
-const port = 4000;
+const port = 3000;
 
 
 app.use(express.static(path.join(__dirname, 'dashboard')));
